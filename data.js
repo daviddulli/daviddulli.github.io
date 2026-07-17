@@ -110,8 +110,8 @@ const PROJECTS = [
     category: ["Mobilitate urbană", "Drumuri", "Inginerie de trafic"],
     year: "2025",
     description: "Proiectare pasarelă pietonală cu structură de rezistență pe grinzi principale și proiectare pod rutier oțel-beton în ACOBRI.",
-    calcPdf: "pdfs/EPP-p-scrisa.pdf",
-    drawingPdf: "pdfs/EPP-p-desenata.pdf"
+    calcPdf: "pdfs/BPS-p-scrisa.pdf",
+    drawingPdf: "pdfs/BPS-p-desenata.pdf"
   },
   {
     title: "Proiectare structură de rezistență clădire cu regim de înălțime P - Proiect",
