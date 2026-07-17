@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dulli Dávid Patrik — Portofoliu Inginerie Urbană și Dezvoltare Regională</title>
+<meta name="description" content="Portofoliu de proiecte realizate pe parcursul anilor de studiu.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Chenar de desen — rama întregii pagini, cu margine de îndosariere ca la o coală tehnică -->
+<div class="sheet-frame">
+
+  <header class="topbar">
+    <div class="topbar__brand">
+      <span class="topbar__mark">DDP</span>
+      <span class="topbar__name">Dulli Dávid Patrik</span>
+    </div>
+    <nav class="topbar__nav">
+      <a href="#proiecte">Proiecte</a>
+      <a href="#competente">Competențe</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- FILA 00 — Foaie de gardă -->
+  <section class="sheet" id="hero" data-sheet-no="00" data-sheet-title="Foaie de gardă" data-scale="—">
+    <div class="hero__eyebrow">Portofoliu Proiecte IUDR · Fila 00 / Foaie de gardă</div>
+    <h1 class="hero__title">Inginer<br>Civil<span class="hero__dot">.</span></h1>
+    <p class="hero__lead">
+      Inginer civil (IUDR) - UTCN | Portofoliu de Proiecte Academice
+	  Această pagină reunește o selecție de proiecte realizate pe parcursul anilor de studiu, acoperind un palier larg de domenii: construcții civile, CFDP, inginerie de trafic, mediu, rețele edilitare și ofertare. 
+	  Portofoliul reflectă, totodată, afinitatea mea de a asimila rapid cunoștințe de software și abilitatea de a le pune eficient în practică.
+	  În cazul în care considerați că acest set de competențe se regăsește în profilul candidatului ideal pentru echipa dumneavoastră, vă rog să mă contactați.
+    </p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#proiecte">Vezi proiectele ↓</a>
+      <a class="btn btn--ghost" href="mailto:daviddulli2@gmail.com">Trimite un mail</a>
+    </div>
+  </section>
+
+  <!-- Index de proiecte -->
+  <section class="sheet" id="proiecte" data-sheet-no="01" data-sheet-title="Index proiecte" data-scale="1:1">
+    <div class="section__head">
+      <span class="section__no">01</span>
+      <h2 class="section__title">Proiecte</h2>
+    </div>
+
+    <div class="filters" id="filters"></div>
+    <div class="project-grid" id="project-grid"></div>
+  </section>
+
+  <!-- Competențe -->
+  <section class="sheet" id="competente" data-sheet-no="02" data-sheet-title="Legendă competențe" data-scale="—">
+    <div class="section__head">
+      <span class="section__no">02</span>
+      <h2 class="section__title">Competențe</h2>
+    </div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <!-- Contact -->
+  <section class="sheet" id="contact" data-sheet-no="03" data-sheet-title="Date de contact" data-scale="—">
+    <div class="section__head">
+      <span class="section__no">03</span>
+      <h2 class="section__title">Contact</h2>
+    </div>
+    <div class="contact-block">
+      <div class="contact-row"><span>E-mail</span><a href="mailto:daviddulli2@gmail">daviddulli2@gmail</a></div>
+      <div class="contact-row"><span>Telefon</span><a href="tel:+407455811675">+40 745 811 675</a></div>
+      <div class="contact-row"><span>LinkedIn</span><a href="https://www.linkedin.com/in/david-patrik-dulli/" target="_blank" rel="noopener">linkedin.com/in/david-patrik-dulli/</a></div>
+      <div class="contact-row"><span>Locație</span><span>Cluj-Napoca, România</span></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Dulli Dávid Patrik</span>
+    <span>Portofoliu proiecte academice</span>
+  </footer>
+
+</div>
+
+<!-- Cartuș fix — colțul din dreapta jos, ca la o planșă reală -->
+<div class="titleblock" id="titleblock">
+  <div class="titleblock__row">
+    <span class="titleblock__label">Fila</span>
+    <span class="titleblock__val" id="tb-no">00</span>
+  </div>
+  <div class="titleblock__row titleblock__row--wide">
+    <span class="titleblock__label">Denumire</span>
+    <span class="titleblock__val" id="tb-title">Foaie de gardă</span>
+  </div>
+  <div class="titleblock__row">
+    <span class="titleblock__label">Scara</span>
+    <span class="titleblock__val" id="tb-scale">—</span>
+  </div>
+</div>
+
+<!-- Modal vizualizare PDF -->
+<div class="modal" id="pdf-modal">
+  <div class="modal__panel">
+    <div class="modal__bar">
+      <span id="modal-title">Document</span>
+      <button id="modal-close" aria-label="Închide">✕</button>
+    </div>
+    <iframe id="modal-frame" src="" title="Vizualizare PDF"></iframe>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
