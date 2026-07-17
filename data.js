@@ -75,7 +75,7 @@ const PROJECTS = [
   },
   {
     title: "Proiectare linie de tramvai pe str. Plopilor din Municipiul Cluj-Napoca - Proiect",
-    category: ["Tramvai, mmetrou", "Drumuri", "Mobilitate urbană"],
+    category: ["Tramvai, metrou", "Drumuri", "Mobilitate urbană"],
     year: "2025",
     description: "Proiectare linie de tramvai pe str. Plopilor din Municipiul Cluj-Napoca - amenajare stradă - relocare linie existentă, proiectare stație de tramvai și piste de biciclete.",
     calcPdf: "pdfs/PITM-p-scrisa.pdf",
@@ -83,7 +83,7 @@ const PROJECTS = [
   },
   {
     title: "Proiectare tunel metrou - Proiect",
-    category: ["Tramvai, mmetrou", "Mobilitate urbană"],
+    category: ["Tramvai, metrou", "Mobilitate urbană"],
     year: "2025",
     description: "Proiectare secțiune circulară tunel utilizând Metoda Protodiakonov",
     calcPdf: "pdfs/CSU-p-scrisa.pdf",
